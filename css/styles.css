@@ -1,0 +1,33 @@
+.yellow {
+  background-color: yellow;
+  height: 100vh;
+}
+
+.header {
+  height: 120px;
+  background-color: blue;
+  margin-top: 20px;
+}
+
+.nav {
+  height: 90px;
+  background-color: red;
+}
+
+.green {
+  background color: #00f703;
+  height: 200px;
+}
+
+.red {
+  background-color: #ff0000;
+  height: 200px;
+}
+
+/*MEDIA QUERIES*/
+@media only screen (max-width: 800px) {
+  .red {
+    background-color: blue;
+
+  }
+}
