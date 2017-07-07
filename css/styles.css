@@ -1,15 +1,15 @@
 .yellow {
-  background-color: yellow;
+  background-color: #00ffff;
   height: 100vh;
 }
 
-.header {
+header {
   height: 120px;
-  background-color: blue;
+  background-color:#0000ff;
   margin-top: 20px;
 }
 
-.nav {
+nav {
   height: 90px;
   background-color: red;
 }
@@ -25,9 +25,14 @@
 }
 
 /*MEDIA QUERIES*/
-@media only screen (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .red {
-    background-color: blue;
+    background-color: purple;
+  }
+}
 
+@media only screen and (max-width: 375px) {
+  .red {
+    background-color: green;
   }
 }
